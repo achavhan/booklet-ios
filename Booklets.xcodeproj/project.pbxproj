@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4AF700932C05EF4B7DE9BCE /* Pods_Booklets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0317A63193E367CBBDB7337 /* Pods_Booklets.framework */; };
 		EE8A9CE61CB58FF5005EE06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A9CE51CB58FF5005EE06E /* AppDelegate.swift */; };
 		EE8A9CE81CB58FF5005EE06E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A9CE71CB58FF5005EE06E /* ViewController.swift */; };
 		EE8A9CEB1CB58FF5005EE06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8A9CE91CB58FF5005EE06E /* Main.storyboard */; };
 		EE8A9CED1CB58FF5005EE06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8A9CEC1CB58FF5005EE06E /* Assets.xcassets */; };
 		EE8A9CF01CB58FF5005EE06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8A9CEE1CB58FF5005EE06E /* LaunchScreen.storyboard */; };
+		EEC62C8B1CB6AAF200DF8744 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC62C8A1CB6AAF200DF8744 /* Book.swift */; };
+		EEC62C911CB6B02900DF8744 /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC62C901CB6B02900DF8744 /* BooksTableViewController.swift */; };
+		EEC62C931CB6B24B00DF8744 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC62C921CB6B24B00DF8744 /* BookTableViewCell.swift */; };
+		EEE527011CB90458001E703C /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE527001CB90458001E703C /* Chapter.swift */; };
+		EEE527031CB91840001E703C /* ChapterTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE527021CB91840001E703C /* ChapterTableViewContoller.swift */; };
+		EEE527051CB91961001E703C /* ChapterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE527041CB91961001E703C /* ChapterTableViewCell.swift */; };
+		EEE527071CB91CDC001E703C /* ChapterDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE527061CB91CDC001E703C /* ChapterDescriptionViewController.swift */; };
+		EEE7AE631D02C63A00C81AED /* CustomNaviationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7AE621D02C63A00C81AED /* CustomNaviationController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EECC7A081CB68FF60017DC6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6D195AA902C7A1A5F1C85243 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35F5984002F2C9E3BA8D8EB /* Pods-Booklets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booklets.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booklets/Pods-Booklets.release.xcconfig"; sourceTree = "<group>"; };
+		C0317A63193E367CBBDB7337 /* Pods_Booklets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booklets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE71C99A5244F9693339EC79 /* Pods-Booklets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booklets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booklets/Pods-Booklets.debug.xcconfig"; sourceTree = "<group>"; };
 		EE8A9CE21CB58FF5005EE06E /* Booklets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booklets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8A9CE51CB58FF5005EE06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE8A9CE71CB58FF5005EE06E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,14 @@
 		EE8A9CEC1CB58FF5005EE06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE8A9CEF1CB58FF5005EE06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8A9CF11CB58FF5005EE06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC62C8A1CB6AAF200DF8744 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EEC62C901CB6B02900DF8744 /* BooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		EEC62C921CB6B24B00DF8744 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		EEE527001CB90458001E703C /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		EEE527021CB91840001E703C /* ChapterTableViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterTableViewContoller.swift; sourceTree = "<group>"; };
+		EEE527041CB91961001E703C /* ChapterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterTableViewCell.swift; sourceTree = "<group>"; };
+		EEE527061CB91CDC001E703C /* ChapterDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterDescriptionViewController.swift; sourceTree = "<group>"; };
+		EEE7AE621D02C63A00C81AED /* CustomNaviationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNaviationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AF700932C05EF4B7DE9BCE /* Pods_Booklets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672BE6CDF45805F640A905F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D195AA902C7A1A5F1C85243 /* Pods.framework */,
+				C0317A63193E367CBBDB7337 /* Pods_Booklets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ADF99B3B17EDFB3AF3C3142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE71C99A5244F9693339EC79 /* Pods-Booklets.debug.xcconfig */,
+				A35F5984002F2C9E3BA8D8EB /* Pods-Booklets.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE8A9CD91CB58FF5005EE06E = {
 			isa = PBXGroup;
 			children = (
 				EE8A9CE41CB58FF5005EE06E /* Booklets */,
 				EE8A9CE31CB58FF5005EE06E /* Products */,
+				672BE6CDF45805F640A905F9 /* Frameworks */,
+				6ADF99B3B17EDFB3AF3C3142 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,54 @@
 		EE8A9CE41CB58FF5005EE06E /* Booklets */ = {
 			isa = PBXGroup;
 			children = (
+				EEC62C891CB6AAD000DF8744 /* Models */,
 				EE8A9CE51CB58FF5005EE06E /* AppDelegate.swift */,
-				EE8A9CE71CB58FF5005EE06E /* ViewController.swift */,
-				EE8A9CE91CB58FF5005EE06E /* Main.storyboard */,
+				EECC7A0C1CB699750017DC6E /* Views */,
 				EE8A9CEC1CB58FF5005EE06E /* Assets.xcassets */,
-				EE8A9CEE1CB58FF5005EE06E /* LaunchScreen.storyboard */,
 				EE8A9CF11CB58FF5005EE06E /* Info.plist */,
+				EECC7A0B1CB699510017DC6E /* Controllers */,
 			);
 			path = Booklets;
+			sourceTree = "<group>";
+		};
+		EEC62C891CB6AAD000DF8744 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEC62C8A1CB6AAF200DF8744 /* Book.swift */,
+				EEE527001CB90458001E703C /* Chapter.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EEC62C941CB6B25C00DF8744 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				EEE527061CB91CDC001E703C /* ChapterDescriptionViewController.swift */,
+				EEE527041CB91961001E703C /* ChapterTableViewCell.swift */,
+				EEC62C921CB6B24B00DF8744 /* BookTableViewCell.swift */,
+				EEC62C901CB6B02900DF8744 /* BooksTableViewController.swift */,
+				EEE527021CB91840001E703C /* ChapterTableViewContoller.swift */,
+			);
+			name = Book;
+			sourceTree = "<group>";
+		};
+		EECC7A0B1CB699510017DC6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEC62C941CB6B25C00DF8744 /* Book */,
+				EE8A9CE71CB58FF5005EE06E /* ViewController.swift */,
+				EEE7AE621D02C63A00C81AED /* CustomNaviationController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EECC7A0C1CB699750017DC6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE8A9CE91CB58FF5005EE06E /* Main.storyboard */,
+				EE8A9CEE1CB58FF5005EE06E /* LaunchScreen.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE8A9CF41CB58FF5005EE06E /* Build configuration list for PBXNativeTarget "Booklets" */;
 			buildPhases = (
+				CC52E9F43B44F3CD2E95A42A /* [CP] Check Pods Manifest.lock */,
 				EE8A9CDE1CB58FF5005EE06E /* Sources */,
 				EE8A9CDF1CB58FF5005EE06E /* Frameworks */,
 				EE8A9CE01CB58FF5005EE06E /* Resources */,
+				EECC7A081CB68FF60017DC6E /* Embed Frameworks */,
+				43F576A48FB676C7EDB1C383 /* [CP] Embed Pods Frameworks */,
+				D75E94A791AD9320F8092671 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +195,7 @@
 				TargetAttributes = {
 					EE8A9CE11CB58FF5005EE06E = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V76768QVFE;
 					};
 				};
 			};
@@ -130,13 +230,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43F576A48FB676C7EDB1C383 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Booklets/Pods-Booklets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC52E9F43B44F3CD2E95A42A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D75E94A791AD9320F8092671 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Booklets/Pods-Booklets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE8A9CDE1CB58FF5005EE06E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE7AE631D02C63A00C81AED /* CustomNaviationController.swift in Sources */,
+				EEE527051CB91961001E703C /* ChapterTableViewCell.swift in Sources */,
+				EEC62C8B1CB6AAF200DF8744 /* Book.swift in Sources */,
+				EEE527071CB91CDC001E703C /* ChapterDescriptionViewController.swift in Sources */,
 				EE8A9CE81CB58FF5005EE06E /* ViewController.swift in Sources */,
+				EEC62C911CB6B02900DF8744 /* BooksTableViewController.swift in Sources */,
+				EEC62C931CB6B24B00DF8744 /* BookTableViewCell.swift in Sources */,
 				EE8A9CE61CB58FF5005EE06E /* AppDelegate.swift in Sources */,
+				EEE527031CB91840001E703C /* ChapterTableViewContoller.swift in Sources */,
+				EEE527011CB90458001E703C /* Chapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -236,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -245,10 +401,15 @@
 		};
 		EE8A9CF51CB58FF5005EE06E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE71C99A5244F9693339EC79 /* Pods-Booklets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Booklets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = enamakel.Booklets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -256,9 +417,13 @@
 		};
 		EE8A9CF61CB58FF5005EE06E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35F5984002F2C9E3BA8D8EB /* Pods-Booklets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Booklets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = enamakel.Booklets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +449,7 @@
 				EE8A9CF61CB58FF5005EE06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
